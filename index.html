@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="realTheCarlo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+        <span class="loader-main"></span>
+    <header class="header-container">
+
+
+        <div class="header-search">
+            <div class="loading">
+                <img src="./image/location.png" alt="location" id="location">
+                <span class="loader"></span>   
+            </div>
+            <input type="text" placeholder="Type Your City" id="location-search">
+            <button id="location-search_btn">Search</button>
+        </div>
+
+        <h2 id="header-title">Today's Forecast Conditions</h2>
+
+        <div class="current-weather_condition">
+            <div class="current-section1">
+                <span id="header-city"></span>
+                <span>,&nbsp; </span>
+                <span id="header-country"></span>
+                <img src="" alt="header-icon" id="header-icon">
+            </div>
+            <span id="header-temp"></span>
+
+            <span id="header-condition_des"></span>
+        </div>
+
+        <div class="condition-section">
+            <span id="feels-temp"></span>
+            <span id="humidity"></span>
+            <span id="wind-speed"></span>
+        </div>
+
+        <div class="today-condition">
+            
+        </div>
+
+    </header>
+    <main class="main-container">
+
+        <div class="future-condition">
+            <div class="data-low_temp"></div>
+            <div class="high-temp"></div>
+        </div>
+
+    </main>
+
+    <script src="./javaScript/script.js"></script>
+   
+</body>
+</html>
